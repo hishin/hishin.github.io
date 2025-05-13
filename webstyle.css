@@ -178,6 +178,14 @@ a:hover {
   text-align: center;
 }
 
+/* Add specific styling for the internship paragraph */
+#intern_collaborators p {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
 /* Publication and project styling */
 .pub {
   font-size: 20px;
