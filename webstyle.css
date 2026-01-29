@@ -174,7 +174,9 @@ a:hover {
 }
 
 /* Center content styles */
-#publications, #past_projects, #intern_collaborators {
+#publications,
+#past_projects,
+#intern_collaborators {
   text-align: center;
 }
 
@@ -208,7 +210,7 @@ a:hover {
 
 .links {
   font-size: 14px;
-  display: inline;
+  display: block;
 }
 
 .authors {
@@ -264,11 +266,11 @@ summary.subsection::before {
   font-weight: bold;
 }
 
-details[open] > summary.subsection::before {
+details[open]>summary.subsection::before {
   content: '▼ ';
 }
 
-details:not([open]) > summary.subsection::before {
+details:not([open])>summary.subsection::before {
   content: '► ';
 }
 
@@ -374,7 +376,9 @@ a:hover {
 }
 
 /* Center content styles */
-#publications, #past_projects, #intern_collaborators {
+#publications,
+#past_projects,
+#intern_collaborators {
   text-align: center;
 }
 
@@ -405,11 +409,11 @@ summary.subsection::before {
   font-weight: bold;
 }
 
-details[open] > summary.subsection::before {
+details[open]>summary.subsection::before {
   content: '▼ ';
 }
 
-details:not([open]) > summary.subsection::before {
+details:not([open])>summary.subsection::before {
   content: '► ';
 }
 
@@ -468,4 +472,3 @@ table:hover {
 }
 
 /*---contents---*/
- 
